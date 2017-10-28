@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_green_blue"
+    android:id="@+id/rootView"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_back_white"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+
+    <include layout="@layout/activity_login" android:id="@+id/login"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/welcomeMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="欢迎你使用"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Unknown App"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pressAny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="轻触任意地方开始"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

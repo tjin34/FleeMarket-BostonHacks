@@ -1,3 +1,50 @@
 <resources>
-    <string name="app_name">FleeMarket</string>
+    <string name="app_name">FleaMarket</string>
+
+
+    <string name="login">登录 Login</string>
+    <string name="username_hint">请输入你的用户名</string>
+    <string name="password_hint">请输入你的密码</string>
+    <string name="or">或者</string>
+    <string name="third_party">使用第三方账号登录</string>
+    <string name="register">注册</string>
+    <string name="forgot_password">忘记密码/登录出现问题</string>
+
+
+    <!--MainActivity-->
+    <string name="market">FleaMarket</string>
+    <string name="housing">Housing</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <!--Market-->
+    <string name="buy_entry">Purchase</string>
+    <string name="sell_entry">Sell</string>
+    <string name="post_entry">Post a Request or Offer</string>
+    <string name="search_box">Please Enter Any Keyword to Search</string>
+
+    <string name="must_field_1">You must fill out the fields with   </string>
+    <string name="must_field_2">*</string>
+    <string name="post_type">Posting a Request or an Offer?</string>
+    <string name="object_category">Object Category</string>
+    <string name="detail_type">Object Name</string>
+    <string name="price_range">Estimate Price Range</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="shipment">Shipment method</string>
+    <string name="extra_requirements">Extra Requirements</string>
+    <string name="add_photo">Add Photos</string>
+
+    <!--Profile-->
+    <string name="setting">Settings</string>
+    <string name="order_history">Order History</string>
+    <string name="wish_list">Wish List</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="real_name">Real Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="address_street_number">Address 1st Line</string>
+    <string name="address_apt_number">Address 2nd Line</string>
+    <string name="address_state">State</string>
+    <string name="address_postal">Postal Code</string>
+
+
 </resources>
