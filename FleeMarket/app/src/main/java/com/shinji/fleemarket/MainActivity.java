@@ -1,13 +1,23 @@
 package com.shinji.fleemarket;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+import com.shinji.fleemarket.Base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
+
+    @Override
+    protected String getTAG() {
+        return "MainActivity";
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_main;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 }
