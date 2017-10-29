@@ -11,10 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.shinji.fleemarket.Base.BaseActivity;
-import com.shinji.fleemarket.UI.Fragments.Chat.ChatFragment;
-import com.shinji.fleemarket.UI.Fragments.Housing.HousingFragment;
-import com.shinji.fleemarket.UI.Fragments.Market.MarketFragment;
-import com.shinji.fleemarket.UI.Fragments.Profile.ProfileFragment;
+import com.shinji.fleemarket.UI.Chat.ChatFragment;
+import com.shinji.fleemarket.UI.Housing.HousingFragment;
+import com.shinji.fleemarket.UI.Market.MarketFragment;
+import com.shinji.fleemarket.UI.Profile.ProfileFragment;
 
 import java.util.ArrayList;
 import java.util.List;

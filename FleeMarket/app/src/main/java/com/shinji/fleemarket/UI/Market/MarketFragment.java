@@ -1,5 +1,6 @@
-package com.shinji.fleemarket.UI.Fragments.Market;
+package com.shinji.fleemarket.UI.Market;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
@@ -12,7 +13,7 @@ import android.widget.RadioGroup;
 
 import com.shinji.fleemarket.Base.BaseFragment;
 import com.shinji.fleemarket.R;
-import com.shinji.fleemarket.UI.Fragments.Market.Adapter.ViewPagerAdapter;
+import com.shinji.fleemarket.UI.Market.Adapter.ViewPagerAdapter;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -177,21 +178,24 @@ public class MarketFragment extends BaseFragment {
         llBuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context, BuyActivity.class);
+                startActivity(intent);
             }
         });
 
         llSell.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context, SellActivity.class);
+                startActivity(intent);
             }
         });
 
         llPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context, PostActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -46,9 +46,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llPostType"
+                android:id="@+id/rlPostType"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -74,8 +74,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow1"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -100,9 +100,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llCategory"
+                android:id="@+id/rlCategory"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -127,8 +127,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow2"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -153,9 +153,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llObjectType"
+                android:id="@+id/rlObjectType"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -171,8 +171,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow3"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -198,9 +198,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llPriceRange"
+                android:id="@+id/rlPriceRange"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -225,8 +225,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow4"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -251,9 +251,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llPaymentMethod"
+                android:id="@+id/rlPaymentMethod"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -278,8 +278,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow5"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -304,9 +304,9 @@
                 android:background="@color/grey_300" />
 
             <RelativeLayout
-                android:id="@+id/llShipment"
+                android:id="@+id/rlShipment"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="50dp"
                 android:background="@drawable/selector_bg_textview_borderless"
                 android:orientation="horizontal">
 
@@ -331,8 +331,8 @@
 
                 <ImageView
                     android:id="@+id/ivArrow6"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_alignParentEnd="true"
                     android:padding="10dp"
                     android:src="@mipmap/ic_arrow_right" />
@@ -364,7 +364,7 @@
                 android:visibility="gone">
 
                 <RelativeLayout
-                    android:id="@+id/llExtraRequirement"
+                    android:id="@+id/rlExtraRequirement"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/selector_bg_textview_borderless"
@@ -373,7 +373,7 @@
                     <TextView
                         android:id="@+id/extra"
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
                         android:gravity="center"
                         android:text="@string/extra_requirements"
@@ -405,7 +405,7 @@
                 android:visibility="gone">
 
                 <RelativeLayout
-                    android:id="@+id/llExtraIntroduction"
+                    android:id="@+id/rlExtraIntroduction"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/selector_bg_textview_borderless"
@@ -414,7 +414,7 @@
                     <TextView
                         android:id="@+id/extraIntro"
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
                         android:gravity="center"
                         android:text="@string/extra_requirements"
@@ -443,7 +443,7 @@
                     android:background="@color/grey_300" />
 
                 <RelativeLayout
-                    android:id="@+id/llPhoto"
+                    android:id="@+id/rlPhoto"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/selector_bg_textview_borderless"
@@ -452,7 +452,7 @@
                     <TextView
                         android:id="@+id/photo"
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
                         android:gravity="center"
                         android:text="@string/add_photo"
@@ -460,8 +460,8 @@
                         android:textSize="15sp" />
 
                     <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
                         android:src="@drawable/add_file"
                         android:layout_alignParentEnd="true"
                         android:padding="10dp"/>

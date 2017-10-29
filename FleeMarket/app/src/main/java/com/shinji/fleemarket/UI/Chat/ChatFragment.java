@@ -1,4 +1,4 @@
-package com.shinji.fleemarket.UI.Fragments.Chat;
+package com.shinji.fleemarket.UI.Chat;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

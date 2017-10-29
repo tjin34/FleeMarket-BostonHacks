@@ -16,8 +16,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 public class RetrofitClient {
 
     //所有的联网地址 统一成https
-//    private static String mBaseUrl = "http://bucssa.net/BucssaApi/V1.0/";
-    private static String mBaseUrl = "http://bucssa.net/API/v1/";
+    private static String mBaseUrl = "https://app.bucssa.net/api/FleeMarket/";
 
     private static Gson gson = new Gson();
 

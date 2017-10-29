@@ -62,10 +62,4 @@ public class UserSingleton {
         USERINFO = new UserInfo();
         SPUtils.clear(((Activity) context).getApplicationContext());
     }
-
-    public static void getHttpAvatar() {
-        bigAvatar = USERINFO.getBig();
-        midAvatar = USERINFO.getMiddle();
-        smallAvatar = USERINFO.getSmall();
-    }
 }

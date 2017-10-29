@@ -1,4 +1,4 @@
-package com.shinji.fleemarket.UI.Fragments.Market.Adapter;
+package com.shinji.fleemarket.UI.Market.Adapter;
 
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;

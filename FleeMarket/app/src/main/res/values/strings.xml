@@ -2,13 +2,13 @@
     <string name="app_name">FleaMarket</string>
 
 
-    <string name="login">登录 Login</string>
-    <string name="username_hint">请输入你的用户名</string>
-    <string name="password_hint">请输入你的密码</string>
-    <string name="or">或者</string>
-    <string name="third_party">使用第三方账号登录</string>
-    <string name="register">注册</string>
-    <string name="forgot_password">忘记密码/登录出现问题</string>
+    <string name="login">Login</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="or">Or</string>
+    <string name="third_party">Login with Third Party Accounts</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password</string>
 
 
     <!--MainActivity-->
@@ -41,6 +41,8 @@
 
     <string name="real_name">Real Name</string>
     <string name="phone">Phone Number</string>
+    <string name="my_address">Address</string>
+    <string name="email">Email</string>
     <string name="address_street_number">Address 1st Line</string>
     <string name="address_apt_number">Address 2nd Line</string>
     <string name="address_state">State</string>

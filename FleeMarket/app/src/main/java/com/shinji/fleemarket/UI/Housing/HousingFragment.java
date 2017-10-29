@@ -1,4 +1,4 @@
-package com.shinji.fleemarket.UI.Fragments.Housing;
+package com.shinji.fleemarket.UI.Housing;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
